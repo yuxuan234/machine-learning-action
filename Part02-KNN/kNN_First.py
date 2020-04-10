@@ -16,7 +16,7 @@ Modify:
 
 def createDataSet():
     # 四组二维特征
-    group = np.array([[1, 101], [5, 89], [108, 5], [115, 8]])
+    group = np.array([[1.0, 1.1], [1.0, 1.0], [0, 0], [0, 0.1]])
     # 四组特征的标签
     labels = ['爱情片', '爱情片', '动作片', '动作片']
     return group, labels
