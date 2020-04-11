@@ -15,7 +15,7 @@ Returns:
     sortedClassCount[0][0] - 分类结果
 
 Modify:
-    2017-07-13
+    2020-04-10
 """
 
 

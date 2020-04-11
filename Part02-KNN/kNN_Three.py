@@ -10,7 +10,7 @@ Returns:
     classLabelVector - 分类Label向量
 
 Modify:
-    2017-03-24
+    2020-04-10
 """
 
 
@@ -55,7 +55,7 @@ Returns:
     无
 
 Modify:
-    2017-03-24
+    2020-04-10
 """
 if __name__ == '__main__':
     # 打开的文件名
