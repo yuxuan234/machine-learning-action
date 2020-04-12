@@ -57,7 +57,7 @@ def handwritingClassTest():
         classNumber = int(fileNameStr.split('_')[0])
         # 获得测试集的1x1024向量,用于训练
         vectorUnderTest = rt.img2vector('testDigits/%s' % (fileNameStr))
-        # 获得预测结果
+        # 获得预测结果  classify函数-kNN算法,分类器
         classifierResult = kt.classify0(vectorUnderTest, trainingMat, hwLabels, 3)
         # classifierResult = neigh.predict(vectorUnderTest)
         print("分类返回结果为%d\t真实结果为%d" % (classifierResult, classNumber))
