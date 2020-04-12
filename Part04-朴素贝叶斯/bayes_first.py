@@ -65,7 +65,7 @@ def setOfWords2Vec(vocabList, inputSet):
             print("the word: %s is not in my Vocabulary!" % word)
     return returnVec  # 返回文档向量
 
-def bagOfWords2Vec(vocabList, inputSet):
+def bagOfWords2VecMN(vocabList, inputSet):
     returnVec = [0] * len(vocabList)  # 创建一个其中所含元素都为0的向量
     for word in inputSet:  # 遍历每个词条
         if word in vocabList:  # 如果词条存在于词汇表中，则置1
